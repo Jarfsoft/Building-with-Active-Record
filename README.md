@@ -17,25 +17,25 @@ To get a local copy up and running follow these simple example steps.
 
 ### Setup
 
-Clone or download the project to your local machine
+- Clone or download the project to your local machine
 
 - Change to the project's root directory
 ```
 cd Building-with-Active-Record
 ```
 
-- Install the required gems:
+- Install the required gems
 ```
 bundle install
 ```
 
-- Setup the database:
+- Setup the database
 ```
 rails db:create
 rails db:migrate
 ```
 
-- Use the console to manipulate the database:
+- Use the console to manipulate the database
 ```
 rails console
 ```
